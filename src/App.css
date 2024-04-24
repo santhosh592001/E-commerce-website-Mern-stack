@@ -1,0 +1,367 @@
+body{
+
+  background-color: black;
+
+}
+
+h3{
+  color: #eeeeee;
+}
+p{
+  color: #eeeeee;
+}
+
+h4{
+  color: wheat;
+}
+
+
+
+#Image{
+    height:200px;
+    width:100%;
+}
+
+.product-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap:20px;
+    margin-top:60px;
+    row-gap:20px;
+
+}
+
+
+button #view-cart a{
+  color:red;
+}
+
+
+
+/* lodings */
+
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 80px;
+  height: 80px;
+  padding-left: 0;
+}
+.loader:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fa9c23;
+  border-color: #fa9c23 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#search{
+  min-width: 250px;
+}
+
+/* Login */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  font-weight: 700;
+}
+
+.wrapper form {
+  padding: 2.5rem 3rem;
+}
+
+.wrapper form .btn {
+  background-color: #fa9c23;
+  border-color: #fa9c23;
+  color: white;
+  margin-top: 2.5rem;
+}
+
+.wrapper form a {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.triangle-incomplete {
+  float: left;
+  width: 0;
+  border-top: 20px solid transparent;
+  border-left: 15px solid #eeeeee;
+  border-bottom: 20px solid transparent;
+  margin-left: -1px;
+}
+
+.triangle2-incomplete {
+  width: 0;
+  float: left;
+  border-top: 20px solid #eeeeee;
+  border-left: 15px solid #fff;
+  border-bottom: 20px solid #eeeeee;
+  margin-right: -1px;
+}
+
+.avatar {
+  display: inline-block;
+  margin-bottom: 0;
+  height: 3rem;
+  width: 3rem;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.avatar-nav {
+  margin-right: 1.7rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+#Profile-img{
+
+  width:300px;
+  height:300px;
+  margin-right:250px;
+
+}
+
+#edit_profile{
+
+  margin-left:290px;
+
+}
+
+#updateProfile{
+
+  width:40px;
+  height:40px;
+
+}
+
+.avathar img{
+  width:50px;
+}
+
+/* Home.css */
+
+/* Default styles */
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 320px) {
+  /* Adjust styles for smaller screens */
+  .product-list ul {
+    display:flex;
+    justify-content: center; /* Single column layout for mobile */
+    gap: 20px;
+;
+  }
+
+  .pageniation {
+    margin-top: 20px; /* Adjust margin for pagination */
+    max-width:-50px;
+    margin-left:25px;
+    padding-bottom:20px;
+  }
+}
+
+/* Define styles for desktop/tablet screens */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .col-10 {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .form-group {
+    margin-bottom: 15px; /* Adjust margin for form groups */
+  }
+
+  .float-right {
+    float: none !important; /* Reset float property */
+    display: block; /* Display as block on mobile */
+    text-align:left; /* Align text to right on mobile */
+  }
+
+  .mb-4 {
+    margin-bottom: 15px; /* Adjust margin for headings */
+  }
+
+  .mb-3 {
+    margin-bottom: 10px; /* Adjust margin for headings */
+  }
+
+  .mt-3 {
+    margin-top: 10px; /* Adjust margin for buttons */
+  }
+
+  .mb-3,
+  .mb-4 {
+    margin-top: 15px; /* Add space between elements */
+  }
+
+  .bg-success {
+    background-color: #28a745; /* Change background color for success button */
+  }
+
+  .w-100 {
+    width: 100%; /* Full width button */
+  }
+}
+
+/* Define styles for desktop/tablet screens */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .col-10 {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .form-group {
+    margin-bottom: 15px; /* Adjust margin for form groups */
+  }
+
+  .float-right {
+    float: none !important; /* Reset float property */
+    display: block; /* Display as block on mobile */
+    text-align:left; /* Align text to right on mobile */
+  }
+
+  .mb-4 {
+    margin-bottom: 15px; /* Adjust margin for headings */
+  }
+
+  .mb-3 {
+    margin-bottom: 10px; /* Adjust margin for headings */
+  }
+
+  .mt-3 {
+    margin-top: 10px; /* Adjust margin for buttons */
+  }
+
+  .mb-3,
+  .mb-4 {
+    margin-top: 15px; /* Add space between elements */
+  }
+
+  .img-fluid {
+    max-width: 100%; /* Make images fluid */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .w-100 {
+    width: 100%; /* Full width button */
+  }
+
+  .avathar {
+    display: inline-block; /* Display inline-block for avatar */
+    margin-right:10px; /* Adjust margin for avatar */
+  }
+}
+
+
+#buttons a{
+
+  color:white
+
+}
+
+
+@media (max-width:576px){
+
+  #edit_profile{
+
+    margin-left:50px;
+    margin-top:280px;
+  
+  }
+  #Profile-img{
+
+    width:200px;
+    height:200px;
+    margin-left:50px;
+  
+  }
+  #buttons{
+
+    color:white;
+    display: block;
+
+  }
+
+}
+
+/* Styles for mobile devices */
+@media (max-width: 576px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    display: block;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    float: center;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 576px) and (max-width: 992px) {
+  .logo {
+    font-size: 24px;
+  }
+
+  .navbar-nav {
+    gap: 20px;
+  }
+}
+
+
+/* Navbar */
+
+#login-by{
+  color:white;
+}
+
+@media (max-width:323px){
+
+  #login-by{
+    margin-left:70px;
+    margin-top:15px;
+  }
+
+  #searchbared{
+
+    margin-top:20px;
+
+  }
+}
+
