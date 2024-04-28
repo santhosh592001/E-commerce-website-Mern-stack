@@ -43,7 +43,7 @@ export default function Header() {
               <Dropdown className="d-inline">
                 <Dropdown.Toggle variant="default text-white" id="dropdown-basic">
                   <figure className="avatar avatar-nav">
-                    <Image width="50px" src={user?.Profile ?? '../images/san.jpeg'} />
+                    <Image width="50px" src={user?.Profile ?? './images/san.jpeg'} />
                   </figure>
                   <span>{user?.name}</span>
                 </Dropdown.Toggle>
@@ -51,7 +51,7 @@ export default function Header() {
                   <Dropdown.Item onClick={logoutHandler} className="text-danger">
                     Logout
                   </Dropdown.Item>
-                  <Dropdown.Item onClick={() => navigate('/Myprofile')} className="text-danger">
+                  <Dropdown.Item onClick={() => navigate('/E-commerce-website-Mern-stack/Myprofile')} className="text-danger">
                     Profile
                   </Dropdown.Item>
                 </Dropdown.Menu>
