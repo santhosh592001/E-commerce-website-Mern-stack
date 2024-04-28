@@ -16,7 +16,7 @@ export const Profile = () => {
                     <img className="rounded-circle" id='Profile-img' 
                     src={user.avatar && './images/san.jpeg'} alt='Profile Image' />
                 </figure>
-                <Link to={'/update/Myprofile'} id="edit_profile" className="btn btn-primary btn-block">
+                <Link to={'/E-commerce-website-Mern-stack/update/Myprofile'} id="edit_profile" className="btn btn-primary btn-block">
                     Edit Profile
                 </Link>
             </div>

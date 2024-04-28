@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import Header from './Component/Header';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Card from './Component/Card';
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ProductDetails } from './Component/ProductDetails';
@@ -38,12 +37,11 @@ function App() {
             <Route path='/E-commerce-website-Mern-stack/' element={<Home/>} />
             <Route path='/' element={<Home/>} />
             <Route path='/search/:keyword' element={<ProductSearch/>}/>
-            <Route path='/Cart' element={<Card/>} />
             <Route path='/Productviews/:id' element={<ProductDetails/>} />
             <Route path='/login' element={<Login/>} />
             <Route path='/register' element={<Register/>}/>
-            <Route path='/update/Myprofile' element={<ProtectorRoute><UpdateProfile/></ProtectorRoute>}/>
-            <Route path='/Myprofile' element={<ProtectorRoute><Profile/></ProtectorRoute>} />
+            <Route path='/E-commerce-website-Mern-stack/update/Myprofile' element={<ProtectorRoute><UpdateProfile/></ProtectorRoute>}/>
+            <Route path='/E-commerce-website-Mern-stack/Myprofile' element={<ProtectorRoute><Profile/></ProtectorRoute>} />
           </Routes>
         </div>
         </HelmetProvider>

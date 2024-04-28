@@ -10,7 +10,7 @@ export const UpdateProfile = () => {
     const [name , setName]= useState("");
     const [Email, setEmail]= useState("");
     const [Profile, setProfile]= useState("");
-    const [ProfileImage , setProfileImage]= useState('/images/san.jpeg');
+    const [ProfileImage , setProfileImage]= useState('/images/avatar.jpeg');
     const dispatch = useDispatch()
 
     const OnchangeAvatar = (e) => {
